@@ -16,8 +16,8 @@ import time
 import openai
 import os
 import json
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = st.session_state.openai_api_key
+openai.api_key = st.session_state.openai_api_key
 
 import logging
 import sys
