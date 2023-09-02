@@ -1,0 +1,3 @@
+The introduction summary section is a short and succinct summary of what the research looks at. 
+
+The introduction summary section should be a maximum of 70 words.

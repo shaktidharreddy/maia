@@ -1,0 +1,16 @@
+Who took part in this safety lead-in?
+57 People with BRAF V600E–mutant mCRC
+27 Participants received encorafenib + cetuximab + mFOLFOX6 treatment
+30 Participants received encorafenib + cetuximab + FOLFIRI treatment
+
+People included in the safety lead-in
+≥18 Years of age
+BRAF V600E–mutant mCRC
+Fully active, or able to carry out lighthousework but not strenuous activites
+No more than 1 previous systemic treatment for mCRC
+Adequate bone marrow, liver, and kidney function
+
+People excluded from the safety lead-in
+MSI-H or dMMR tumor (unless patient is unable to receive immune checkpoint inhibitors)
+Cancer has spread to the brain and is causing symptoms
+Previous treatment with drugs blocking BRAF or EGFR

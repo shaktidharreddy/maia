@@ -1,0 +1,8 @@
+The aims section gives detail on what the researchers wanted to find out. 
+
+Below is an example of the aims section, delimited by triple backticks:
+```
+• If people with mCRC whose tumors have the BRAF V600E mutation 
+and are MSI–H/dMMR may respond better to the combination of 
+pembrolizumab with encorafenib plus cetuximab than to 
+pembrolizumab alone```

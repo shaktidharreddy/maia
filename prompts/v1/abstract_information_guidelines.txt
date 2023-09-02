@@ -1,0 +1,11 @@
+The abstract information section should output specific informaton and characteristics about the research being summarised. 
+
+The section should start with the disclaimer "Please note that this summary only contains information from the scientific abstract and does not include further information from the presented oral.", followed by a list of characterstics.
+
+The characteristics to list are:
+Date of the summary: I.e. today's date
+Study number: e.g. NCT...
+Study start date:
+Estimated study end date:
+
+The final section of the this section should state "For more information in this study, go to: https://clinicaltrials.gov/..."

@@ -1,0 +1,22 @@
+The study details section gives information on the study sample. This includes the characteristics of the inclusion and exclusion criteria for the research and the different study trial arms.
+
+The output is formatted as follows:
+
+"Who took part in this study?"
+- # of participants in the study and the key inclusion criteria(s) - typically one criteria, e.g. People with BRAF V600E–mutant mCRC
+
+- Participants in arm 1: integer
+- Intervention arm 1: Participants received ...
+- Participants in arm 2: integer
+- Intervention arm 2: Participants received ...
+...
+- Participants in arm n: integer
+- Intervention arm n: Participants received ...
+
+- Full inclusion criteria: key inclusion criteria(s) + any additional criteria (e.g. >18 years of age) formatted as bullet pointed list 
+- Full exclusion critieria: ...
+- Additional information on the sample: e.g. geographies, average age, males vs female split, ethnicities, etc. formatted as bullet pointed list
+
+Below is an example of the study details section delimited by triple backticks:
+
+```study_details_example```

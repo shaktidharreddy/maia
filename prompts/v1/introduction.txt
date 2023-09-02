@@ -1,0 +1,27 @@
+The introduction section gives a detailed overview of what the research looked at.
+
+The introduction section then gives background on the disease and the molecule being investigated.
+
+Keep the introduction section to between 300-500 words.
+
+Below is an example of the introduction section delimited by triple backticks:
+```
+The SEAMARK study will look at the effects of treatment with pembrolizumab in combination with encorafenib plus cetuximab compared with pembrolizumab alone for previously untreated people with a subtype of cancer in the large intestine, also known as the colon and rectum, called colorectal cancer.
+– Metastatic colorectal cancer (mCRC) is a type of cancer that has spread from the large intestine to other places in the body.
+• Some people with mCRC have changes in genes* called mutations. One of these mutations is called BRAF V600E. About 25% to 35% of people with this mutation also have another change in their tumors called “high levels of microsatellite instability (MSI-H)” or “deficient mismatch repair (dMMR).” 
+– The V600E mutation in the BRAF gene turns on signals that help cancer cells grow so the tumor gets  larger. People with mCRC whose tumors have mutations in the BRAF gene get worse faster and do not  live as long as those who do not have this change in their cancer cells.
+– MSI-H/dMMR causes cells to be unable to repair mistakes in their genes that lead to cancer growth and spread. There are currently no treatments approved specifically for patients with MSI-H/dMMR and  BRAF V600E–mutant mCRC. 
+• Encorafenib, in combination with cetuximab, has been approved in several countries for the treatment of previously treated patients with mCRC whose tumors have a BRAF V600E mutation.
+– Encorafenib blocks the activity of BRAF.
+– Cetuximab blocks the activity of EGFR, which is another molecule that can help cancer cells grow  and divide.
+• Pembrolizumab has been approved in several countries as a treatment for patients with MSI-H/dMMR CRC that has spread or cannot be removed by surgery. 
+– Pembrolizumab helps the body’s immune system fight cancer by blocking signals in the PD-1 pathway that allow the cancer to hide from the immune system.
+• Pembrolizumab combined with encorafenib and cetuximab is not an approved treatment specifically for patients with MSI-H/dMMR and BRAF V600E–mutant mCRC. This is why researchers are conducting the SEAMARK study.
+• In the SEAMARK study, researchers will treat people with mCRC who have tested positive for MSI-H/dMMRand BRAF V600E mutations with either: 
+– Pembrolizumab, encorafenib, and cetuximab, 
+ OR
+– Pembrolizumab alone.
+• This summary describes the SEAMARK trial design. 
+
+* A gene is a piece of DNA that tells the cell to make specific molecules, such as proteins
+```

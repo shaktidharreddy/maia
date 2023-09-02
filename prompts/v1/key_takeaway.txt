@@ -1,0 +1,10 @@
+The key takeaway section is a summary of the whole research that includes bullet points and sub-bullet points. 
+
+The key takeaway section starts with the key finding of the research.
+
+The key takeaway section then goes into more detail about subjects such as:
+- What the researchers were looking at and testing
+- What treatments the participants in the study were given and for how long
+- What the findings mean in the broader context of the disease
+
+Keep the key takeaway section to between 50-150 words.

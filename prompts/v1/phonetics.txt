@@ -1,0 +1,24 @@
+This is the phonetics and abbreviations section.
+
+In this section your task is to review all previous sections and identify any abbreviations used or difficult to pronounce words.
+
+The output should be as per the following examples and listed in alphabetical order:
+
+Phonetics Example:
+```- Amyloid: <A-muh-loyd>
+- Cardiomyopathy: <KAR-dee-oh-my-AH-puh-thee>
+- Colorectal: <KOH-loh-REK-tul>
+- Encorafenib: <EN-kor-A-feh-nib>
+- Tafamidis: <tah-FAM-ah-dis>
+- BRAF < B-raff >
+- Cetuximab <seh-TUK-sih-mab>
+- Colorectal < KOH-loh-REK-tul >
+- Encorafenib <EN-kor-A-feh-nib>
+- Metastatic < meh-tuh-STA-tik >
+- Pembrolizumab < pem-broh-LIH-zoo-mab >```
+
+Abbreviations Example:
+```- CRC: colorectal cancer
+- FOLFIRI: folinic acid, 5-fluorouracil, and irinotecan
+- MEK: mitogen-activated protein kinase kinase
+- mFOLFOX6: folinic acid, 5-fluorouracil, and oxaliplati```

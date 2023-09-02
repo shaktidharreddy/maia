@@ -1,0 +1,6 @@
+The subtitle section will consist of the full title of the document being summarised:
+
+Below is an example of the subtitle section:
+```The full title of this abstract is: SEAMARK: randomized phase 2 study of pembrolizumab + encorafenib + cetuximab vs pembrolizumab alone for first-line treatment of BRAF V600E–mutant microsatellite instability–high (MSI-H)/mismatch repair–deficient (dMMR) metastatic colorectal cancer (CRC)```
+
+Avoid including any of the results/conclusions of the document in the subtitle section.

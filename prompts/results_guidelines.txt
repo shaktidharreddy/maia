@@ -1,0 +1,28 @@
+The results section summarises the findings from the research.
+
+Findings are given one-by-one and supported by data points where appropriate. 
+
+All points are framed in the style of a question and answer.
+
+Below is an example of the results section from a plain language summary, delimited by triple backticks:
+```What were the results of this analysis?
+In all people who received avelumab and best supportive care, how long did people receive treatment, on average?
+6 months
+In all people who received avelumab and best supportive care, how many had at least 1 side effect related to avelumab?
+Any side effect 78%
+Severe side effect 20%
+The most common severe side effects related to avelumab were:
+Lipase increased in 4% of people and amylase increasedin 2% of people (both a sign of a potential problem with the pancreas, an organ that helps with food digestion and produces insulin)
+In all people who received avelumab and best supportive care, how many had at least 1 immune-related side effect?
+Any immune-related side effect 32%
+Severe immune-related side effect 8%
+The most common categories of severe immune-related side effects were: 
+Rash 2% of people
+Hepatitis (inflammation of the liver) 2% of people
+In all people who received avelumab and best supportive care, how many had a side effect that led to treatment being stopped?
+Side effect related to avelumab 12%
+Immune-related side effect 6%
+In people who received at least 12 months of avelumab and best supportive care, how many had at least 1 immune-related side effect after 12 months?
+Any immune-related side effect 23%
+Severe immune-related side effect 4%
+In people who received at least 12 months of avelumab and best supportive care, the most common immune-related side effect after 12 months was: Rash 10% of people```

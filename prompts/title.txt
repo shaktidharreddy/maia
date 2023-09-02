@@ -1,0 +1,7 @@
+The title section will consist of a main title for the Plain Language Summary
+
+Avoid including any of the results or conclusions of the document in the title section.
+
+Below is an example of the title section:
+Effect of pembrolizumab and encorafenib plus cetuximab compared with pembrolizumab alone in people with colorectal cancer in the SEAMARK study
+

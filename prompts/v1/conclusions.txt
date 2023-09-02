@@ -1,0 +1,11 @@
+The conclusions section states the main conclusions of the research and what this means for the wider disease area.
+
+The conclusions section is formated as bullet points and sub-bullet points.
+
+Below is an example of a conclusions section from an Abstract Plain Language Summary, delimited by triple backticks:
+```
+• Long-term safety results for avelumab maintenance treatment in the JAVELIN Bladder 100 study were similar to previous studies of avelumab 
+– No new side effects were seen with long-term avelumab maintenance treatment
+• Severe side effects related to avelumab maintenance treatment were reported in 20% of people, and 8% of people had severe immune-related side effects
+• These results provide additional support for the use of avelumab maintenance as a standard treatment for people with advanced urothelial cancer until their cancer gets worse or comes back
+```
