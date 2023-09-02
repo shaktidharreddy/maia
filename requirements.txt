@@ -52,7 +52,6 @@ huggingface-hub==0.16.4
 importlib-metadata==6.6.0
 ipywidgets==8.0.6
 jax==0.4.10
-jedi @ file:///C:/ci/jedi_1644315428305/work
 joblib==1.3.2
 jupyter==1.0.0
 jupyter-console==6.6.3
