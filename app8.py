@@ -78,12 +78,11 @@ import itertools
 import pickle
 import glob
 
-saved_path = "C:/Users/91961/maia/maia/bot_data"
-rootdir = "C:/Users/91961/maia/maia"
-datadir = "C:/Users/91961/maia/maia/data"
-promptdir = "C:/Users/91961/maia/maia/prompts"
+saved_path = os.path.abspath("./") + "\bot_data"
+rootdir = os.path.abspath("./")
+datadir = os.path.abspath("./") + "\data"
+promptdir = os.path.abspath("./") + "\prompts"
 Entrez.email = "shakti20889@gmail.com"
-openai_api_key = "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"
 
 # def progress_bar_method(secs):
 #     # Code for your second asynchronous method goes here
@@ -578,6 +577,7 @@ def main():
         #logout button on main container
         authenticator.logout('Logout', 'main')
         st.subheader(f'Welcome *{st.session_state["name"]}*')
+        st.session_state.openai_api_key  = st.text_input("Enter your OpenAI API Key", '',type="password")
         
         #set bg image cover
         #set_bg_hack(os.path.join(rootdir, 'iqvia-dark-blue.png'))
@@ -760,7 +760,7 @@ def main():
 
             # Setup LLM and QA chain
             llm = ChatOpenAI(
-                model_name="gpt-3.5-turbo", openai_api_key=openai_api_key, temperature=0, streaming=True
+                model_name="gpt-3.5-turbo", openai_api_key=st.session_state.openai_api_key, temperature=0, streaming=True
             )
             qa_chain = ConversationalRetrievalChain.from_llm(
                 llm, retriever=retriever, memory=memory, verbose=True
@@ -1085,7 +1085,7 @@ def main():
                         st.chat_message("user").write(prompt)
 
                         llm = ChatOpenAI(
-                            temperature=0, model="gpt-3.5-turbo-0613", openai_api_key=openai_api_key, streaming=True
+                            temperature=0, model="gpt-3.5-turbo-0613", openai_api_key=st.secrets["openai_api_key"], streaming=True
                         )
 
                         pandas_df_agent = create_pandas_dataframe_agent(
