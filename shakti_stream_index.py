@@ -16,8 +16,8 @@ import time
 import openai
 import os
 import json
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = "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"
+openai.api_key = "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"
 
 import logging
 import sys
@@ -41,7 +41,7 @@ def llama_vector_index(uploaded_file, query):
     documents = SimpleDirectoryReader(input_files = [uploaded_file]).load_data()
     
     service_context = ServiceContext.from_defaults(
-            llm=OpenAI(model="gpt-4-32k", temperature=0, streaming=True, ), chunk_size=2048, chunk_overlap = 500, 
+            llm=OpenAI(model="gpt-4-32k", temperature=0, streaming=True, ), chunk_size=4096, chunk_overlap = 512, 
     )
     
     index = VectorStoreIndex.from_documents(
@@ -65,6 +65,6 @@ def llama_vector_index(uploaded_file, query):
     
 
 def prompt(file):
-    with open(file) as f:
+    with open(file,encoding="utf8") as f:
         return f.read()
     

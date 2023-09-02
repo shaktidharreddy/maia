@@ -78,12 +78,12 @@ import itertools
 import pickle
 import glob
 
-saved_path = "/home/cdsw/experimentation_project1/PLS_project/bot_data"
-rootdir = "/home/cdsw/experimentation_project1/PLS_project"
-datadir = "/home/cdsw/experimentation_project1/PLS_project/data"
-promptdir = "/home/cdsw/experimentation_project1/PLS_project/prompts"
+saved_path = "C:/Users/91961/maia/maia/bot_data"
+rootdir = "C:/Users/91961/maia/maia"
+datadir = "C:/Users/91961/maia/maia/data"
+promptdir = "C:/Users/91961/maia/maia/prompts"
 Entrez.email = "shakti20889@gmail.com"
-openai_api_key = "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"
+openai_api_key = "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"
 
 # def progress_bar_method(secs):
 #     # Code for your second asynchronous method goes here
@@ -294,7 +294,7 @@ def word_frequency(sentence):
     
 #function to read prompt from corresponding text file
 def prompt(file):
-    with open(file) as f:
+    with open(file,encoding="utf8") as f:
         return f.read()
     
 #function to save a file
