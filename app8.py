@@ -85,7 +85,6 @@ datadir = "C:/Users/91961/maia/maia/data"
 promptdir = "C:/Users/91961/maia/maia/prompts"
 Entrez.email = "shakti20889@gmail.com"
 
-
 # def progress_bar_method(secs):
 #     # Code for your second asynchronous method goes here
 #     for i in stqdm(range(secs), backend=True, frontend=True):
@@ -1087,7 +1086,7 @@ def main():
                         st.chat_message("user").write(prompt)
 
                         llm = ChatOpenAI(
-                            temperature=0, model="gpt-3.5-turbo-0613", openai_api_key=openai_api_key, streaming=True
+                            temperature=0, model="gpt-3.5-turbo-0613", openai_api_key=st.secrets["openai_api_key"], streaming=True
                         )
 
                         pandas_df_agent = create_pandas_dataframe_agent(
