@@ -1,6 +1,5 @@
 #enhancing -current working version, modifying the pubmed chatbot with pandas df agent
 import os
-import openai
 import re
 import urllib
 import urllib.request
@@ -79,10 +78,10 @@ import itertools
 import pickle
 import glob
 
-saved_path = "C:/Users/91961/maia/maia/bot_data"
-rootdir = "C:/Users/91961/maia/maia"
-datadir = "C:/Users/91961/maia/maia/data"
-promptdir = "C:/Users/91961/maia/maia/prompts"
+saved_path = os.path.abspath("./") + "\bot_data"
+rootdir = os.path.abspath("./")
+datadir = os.path.abspath("./") + "\data"
+promptdir = os.path.abspath("./") + "\prompts"
 Entrez.email = "shakti20889@gmail.com"
 
 # def progress_bar_method(secs):
