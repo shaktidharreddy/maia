@@ -78,10 +78,10 @@ import itertools
 import pickle
 import glob
 
-saved_path = os.path.abspath("./") + "\bot_data"
+saved_path = os.path.abspath("./") + "/bot_data"
 rootdir = os.path.abspath("./")
-datadir = os.path.abspath("./") + "\data"
-promptdir = os.path.abspath("./") + "\prompts"
+datadir = os.path.abspath("./") + "/data"
+promptdir = os.path.abspath("./") + "/prompts"
 Entrez.email = "shakti20889@gmail.com"
 
 # def progress_bar_method(secs):
