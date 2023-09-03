@@ -7,7 +7,7 @@ import base64
 import tempfile
 import json
 import nltk
-nltk.download('all')
+#nltk.download('all')
 import streamlit as st
 from pptx import Presentation
 from pptx.util import Inches
