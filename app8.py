@@ -577,7 +577,7 @@ def main():
         #logout button on main container
         authenticator.logout('Logout', 'main')
         st.subheader(f'Welcome *{st.session_state["name"]}*')
-        st.session_state.openai_api_key  = st.text_input("Enter your OpenAI API Key", '',type="password")
+        #st.session_state.openai_api_key  = st.text_input("Enter your OpenAI API Key", '',type="password")
         
         #set bg image cover
         #set_bg_hack(os.path.join(rootdir, 'iqvia-dark-blue.png'))
@@ -760,7 +760,7 @@ def main():
 
             # Setup LLM and QA chain
             llm = ChatOpenAI(
-                model_name="gpt-3.5-turbo", openai_api_key=st.session_state.openai_api_key, temperature=0, streaming=True
+                model_name="gpt-3.5-turbo", openai_api_key=st.secrets["openai_api_key"], temperature=0, streaming=True
             )
             qa_chain = ConversationalRetrievalChain.from_llm(
                 llm, retriever=retriever, memory=memory, verbose=True
