@@ -548,7 +548,7 @@ def main():
     #    </style>
     #    """
     # st.markdown(hide_default_format, unsafe_allow_html=True)
-    
+    st.session_state["authentication_status"] = True #comment this for authenticator page to work
     names = ["admin","shakti"]
     usernames = ["adm", "shrp"]
     passwords = ["abc123", "def456"]
