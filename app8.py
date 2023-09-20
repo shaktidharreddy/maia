@@ -611,7 +611,7 @@ def main():
         #setting input components on sidebar
         with st.sidebar:
 
-            st.image(Image.open(os.path.join(rootdir, 'iqvia-logo.png')))
+            #st.image(Image.open(os.path.join(rootdir, 'iqvia-logo.png')))
             #setting title
             st.markdown("""<h3 style='text-align: center'>*MAIA - Medical Affairs Intelligence Assistant*</h3>""", unsafe_allow_html=True)
 
