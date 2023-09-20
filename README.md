@@ -1,2 +1,2 @@
 # maia
-IQVIA's medical affairs intelligent assistant
+MAIA - medical affairs intelligent assistant
